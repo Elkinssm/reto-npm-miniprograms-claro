@@ -1,0 +1,6 @@
+<view class="body">
+  <view class="title">Upper Case</view>
+  <input class="input" onInput="onChange" value="{{input}}" placeholder="Texto maximo que se puede ingresar 10" maxlength="10" />
+  <button class="button-input" size="default" type="primary" onTap="upper">Button</button>
+  <text class="output">{{mayus}}</text>
+</view>
